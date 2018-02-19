@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// exampe on conditional operators
+// example on conditional operators
 
 int main()
 {
