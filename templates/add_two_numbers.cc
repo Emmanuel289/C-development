@@ -10,8 +10,7 @@ sum = a + b;  // compute the sum of the two inputed variables and save in the th
 diff = a - b;  //compute the difference between the two inputed variables and save in the fourth.
 
 printf("The sum and difference of both numbers are respectively: ");
-cout << sum << ',';
-cout << diff << '\n';
+cout << sum << " and " <<diff << '\n';
 
 return 0;
 }
