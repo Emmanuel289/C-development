@@ -17,8 +17,8 @@ else
 
     //Iteration statements (loops)
 
-    // while loop
-    int n = 10 ;
+    // countdown using a while loop
+    int n = 10;
 
     while(n>0)
     {
@@ -33,11 +33,14 @@ else
     string str;
 
     do {
-            cout << "Enter text: ";
+            cout << "Enter text: (hint-type goodbye to exit the maze)" <<'\n';
             getline (cin,str);
-            cout << "You entered: " << str << '\n';
+            cout << "You entered: " << str <<'\n';
+
 
   } while (str != "goodbye");
+
+  cout <<"Congratulations Super mario!, you finally made it out of the maze. now pour yourself a drink and wait for the countdown"<<'\n';
 
   // countdown using a for loop
   for (int n=10; n>0; n--) {
@@ -84,10 +87,10 @@ else
   //goto allows to make an absolute jump to another point in the program. This unconditional jump ignores nesting levels, and does not cause any automatic stack unwinding.
   //Therefore, it is a feature to use with care, and preferably within the same block of statements, especially in the presence of local variables.
 
-  int n=10;
+  int n1=10;
   mylabel:
-  cout << n << ", ";
-  n--;
+  cout << n1 << ", ";
+  n1--;
   if (n>0) goto mylabel;
   cout << "liftoff!\n";
 
