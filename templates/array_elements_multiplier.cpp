@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int prime_num []=  {1,2,3,5,7,11,13,17,19,23,29};
+    int prime_num []=  {1,2,3,5,7,11,13,17,19,23};
     int i;
     int result =1;
 
@@ -12,5 +12,5 @@ int main()
         result = result * prime_num[i];
     }
 
-    cout<<"The product of the first six prime numbers is: "<<result<<'\n';
+    cout<<"The product of the first ten prime numbers is: "<<result<<'\n';
 }
